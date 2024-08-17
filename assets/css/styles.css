@@ -138,7 +138,7 @@ table {
 body {
   font-family: sans-serif; /* fonte sem serifa */
   font-size: 16px; /* tamanho da fonte, o tamnho padrão já é 16px */
-  background-color: rgb(129, 32, 72);
+  background-color: rgb(200, 60, 119);
 }
 
 .container {
@@ -151,6 +151,7 @@ body {
   margin-right: auto;
   padding: 20px;
   border-radius: 50px;
+  border-radius: 25px;
 }
 
 .img-fluid {
@@ -164,7 +165,7 @@ body {
 }
 
 h1 {
-  color: rgb(129, 32, 72); /* Define a cor do texto */
+  color: rgb(200, 60, 119); /* Define a cor do texto */
 }
 
 input,
@@ -217,7 +218,7 @@ h1 {
   font-weight: bold;
 }
 .menu li a {
-  color: rgb(129, 32, 72);
+  color: rgb(200, 60, 119);
 }
 
 footer {
