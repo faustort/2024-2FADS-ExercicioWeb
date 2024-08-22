@@ -13,13 +13,28 @@ function preencherViaJanela() {
 }
 
 const botao = document.getElementById("botao");
-botao.innerText = "Enviar somente";
-botao.innerHTML = "<strong>Enviar somente</strong>";
+botao.innerText = "Preencher via janela";
 
-botao.addEventListener(
-        "click", 
-        function (e){
-            e.preventDefault();
-            console.log("Clicou no botão");
-        }
-    );
+
+botao.addEventListener("click", (e) => {
+    e.preventDefault();
+    preencherViaJanela();
+});
+
+// Forma tradicional de declarar uma função
+function alertaJanela() {
+    alert("Cliquei no botão");
+}
+
+
+// Forma de declarar uma função anônima em uma variável
+const alertaJanela2 = () => {
+    alert("Cliquei no botão");
+}
+
+// Forma de declarar uma função anônima em uma variável sem chaves
+const alertaJanela3 = () => alert("Cliquei no botão");
+
+// enviar o formulário via javascript
+// encontre um elemento na tela e ao clicar nele
+// faça o envio do formulário
