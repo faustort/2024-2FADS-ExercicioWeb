@@ -221,6 +221,17 @@ h1 {
   color: rgb(200, 60, 119);
 }
 
+.position-relative {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.foto {
+  max-width: 200px;
+  transform: translateX(-30px);
+}
+
 footer {
   margin-top: 50px;
 }/*# sourceMappingURL=styles.css.map */
