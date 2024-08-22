@@ -39,9 +39,20 @@ const alertaJanela3 = () => alert("Cliquei no botão");
 // encontre um elemento na tela e ao clicar nele
 // faça o envio do formulário
 
-// você vai precisar fazer um document.getElementById 
+// você vai precisar fazer um document.getElementById
 // tanto do elemento escolhido quanto do formulário
-// depois você vai adicionar um listener ao elemento 
-// escolhido, depois você vai usar o forma sua 
+// depois você vai adicionar um listener ao elemento
+// escolhido, depois você vai usar o forma sua
 // função submit() para enviar o formulário
 // lembre-se de dar um ID ao elemento escolhido 
+
+
+const botaoCliqueExercicio = document.getElementById("clique_exercicio");
+botaoCliqueExercicio.addEventListener(
+    "click",
+    (e) => {
+        const form = document.getElementById("form_exercicio");
+        e.preventDefault();
+        form.submit();
+    }
+)
