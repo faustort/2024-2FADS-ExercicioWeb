@@ -56,3 +56,5 @@ botaoCliqueExercicio.addEventListener(
         form.submit();
     }
 )
+
+
